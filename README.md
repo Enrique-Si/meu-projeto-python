@@ -12,3 +12,28 @@ Este projeto foi desenvolvido com o objetivo de criar um sistema simples e efici
 🚀 Tecnologias Utilizadas
 
 	•	Python: Linguagem principal utilizada para o desenvolvimento das funcionalidades.
+
+📊 Estrutura do Banco de Dados
+
+	•	Alunos:
+	•	nome: string
+	•	idade: int
+	•	matrícula: string (chave primária)
+	•	Professores:
+	•	nome: string
+	•	idade: int
+	•	matrícula: string (chave primária)
+
+📋 Exemplos de Uso
+
+Cadastro de Aluno
+
+	1.	Insira o nome do aluno.
+	2.	Insira a idade.
+	3.	Digite o número de matrícula.
+	4.	Os dados serão armazenados no banco de dados e uma confirmação será exibida na tela.
+
+Consulta de Professores
+
+	1.	Digite o nome ou matrícula para consultar.
+	2.	O sistema exibirá as informações detalhadas do professor.
